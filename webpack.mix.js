@@ -26,4 +26,4 @@ mix
   .copy('src/static', 'dist')
   // This will process our entry point (app.js)
   // into the dist/js folder
-  .react('src/js/app.js', 'dist/js');
+  .react('src/js/main.js', 'dist/js/app.js');
